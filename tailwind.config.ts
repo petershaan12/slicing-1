@@ -15,11 +15,7 @@ const config: Config = {
         mono: ["var(--font-mono)", ...fontFamily.mono],
       },
       colors: {
-        primarygray: {
-          DEFAULT: "#F7F7FB",
-          200: "#E8E8FB",
-          300: "#BFBFE3",
-        },
+        primarygray: {DEFAULT: "#F6FBFF", 200: "#E8E8FB"},
         yellow: {
           50: "#ff100109",
           100: "#fffdf0",
@@ -46,6 +42,9 @@ const config: Config = {
         ".bg-hero": {
           "background-image": "url(/hero.png)",
         },
+        ".shadow-skill": {
+          "box-shadow": "0px 15px 30px 0px rgba(0, 0, 0, 0.10)",
+        }
       };
       addUtilities(utilities);
     }),
