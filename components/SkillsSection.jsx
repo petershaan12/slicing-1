@@ -4,84 +4,83 @@ import SkillsCard from "./SkillsCard";
 
 export default function SkillsSection() {
   return (
-    <section className="py-20 bg-primarygray" id="skills">
-      <div className="container mx-auto ">
+    <section className="py-28 bg-primarygray" id="skills">
+      <div className="container mx-auto px-10 2xl:px-0">
         <SectionTitle>Skills</SectionTitle>
-        <SectionParagraph>Beberapa kemampuan saya</SectionParagraph>
+        <SectionParagraph>Beberapa kemampuan saya.</SectionParagraph>
         <div className="flex -mx-4 mt-20 flex-wrap">
-          <div className="w-4/12 px-4 pb-8">
+          <div className="md:w-4/12 w-full px-4 pb-8">
             <SkillsCard
-              nama="Javascript"
+              name="JavaScript"
+              level="Lanjutan"
               image="/javascript.svg"
-              level="lanjutan"
-              className="h-16 rounded-full"
+              imageClassName="h-16 rounded-full"
             />
           </div>
-          <div className="w-4/12 px-4 pb-8">
+          <div className="md:w-4/12 w-full px-4 pb-8">
             <SkillsCard
-              nama="React JS"
+              name="React JS"
+              level="Menengah"
               image="/react.svg"
-              level="menengah"
-              className="h-16"
+              imageClassName="h-16"
             />
           </div>
-          <div className="w-4/12 px-4 pb-8">
+          <div className="md:w-4/12 w-full px-4 pb-8">
             <SkillsCard
-              nama="Node JS"
+              name="Node JS"
+              level="Lanjutan"
               image="/nodejs-icon.svg"
-              level="lanjutan"
-              className="h-16"
+              imageClassName="h-16"
             />
           </div>
-          <div className="w-4/12 px-4 pb-8">
+          <div className="md:w-4/12 w-full px-4 pb-8">
             <SkillsCard
-              nama="Node JS"
+              name="Node JS"
+              level="Lanjutan"
               image="/nodejs-icon.svg"
-              level="lanjutan"
-              className="h-16"
+              imageClassName="h-16"
             />
           </div>
-          <div className="w-4/12 px-4 pb-8">
+          <div className="md:w-4/12 w-full px-4 pb-8">
             <SkillsCard
-              nama="Javascript"
+              name="JavaScript"
+              level="Lanjutan"
               image="/javascript.svg"
-              level="lanjutan"
-              className="h-16 rounded-full"
+              imageClassName="h-16 rounded-full"
             />
           </div>
-          <div className="w-4/12 px-4 pb-8">
+          <div className="md:w-4/12 w-full px-4 pb-8">
             <SkillsCard
-              nama="React JS"
+              name="React JS"
+              level="Menengah"
               image="/react.svg"
-              level="menengah"
-              className="h-16"
+              imageClassName="h-16"
             />
           </div>
-          <div className="w-4/12 px-4 pb-8">
+          <div className="md:w-4/12 w-full px-4 pb-8 md:pb-0">
             <SkillsCard
-              nama="React JS"
+              name="React JS"
+              level="Menengah"
               image="/react.svg"
-              level="menengah"
-              className="h-16"
+              imageClassName="h-16"
             />
           </div>
-          <div className="w-4/12 px-4">
+          <div className="md:w-4/12 w-full px-4 pb-8 md:pb-0">
             <SkillsCard
-              nama="Node JS"
+              name="Node JS"
+              level="Lanjutan"
               image="/nodejs-icon.svg"
-              level="lanjutan"
-              className="h-16"
+              imageClassName="h-16"
             />
           </div>
-          <div className="w-4/12 px-4">
+          <div className="md:w-4/12 w-full px-4 pb-8 md:pb-0">
             <SkillsCard
-              nama="React JS"
-              image="/react.svg"
-              level="menengah"
-              className="h-16"
+              name="JavaScript"
+              level="Lanjutan"
+              image="/javascript.svg"
+              imageClassName="h-16 rounded-full"
             />
           </div>
-          
         </div>
       </div>
     </section>

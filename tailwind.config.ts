@@ -41,10 +41,13 @@ const config: Config = {
       const utilities = {
         ".bg-hero": {
           "background-image": "url(/hero.png)",
+          "background-size": "cover",
+          "background-position": "bottom",
+          "background-repeat": "no-repeat",
         },
         ".shadow-skill": {
           "box-shadow": "0px 15px 30px 0px rgba(0, 0, 0, 0.10)",
-        }
+        },
       };
       addUtilities(utilities);
     }),
