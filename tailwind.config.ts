@@ -10,12 +10,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
-        mono: ["var(--font-mono)", ...fontFamily.mono],
+      container: {
+        screens: {
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
+          xl: "1080px",
+        },
       },
       colors: {
-        primarygray: {DEFAULT: "#F6FBFF", 200: "#E8E8FB"},
+        primarygray: { DEFAULT: "#F6FBFF", 200: "#E8E8FB" },
         yellow: {
           50: "#ff100109",
           100: "#fffdf0",

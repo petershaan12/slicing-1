@@ -11,7 +11,7 @@ export default function Navbar() {
   const [offcanvas, setOffcanvas] = useState(false);
   return (
     <>
-      <div className="flex items-center py-10">
+      <div className="flex items-center py-2">
         <div className="w-3/12">
           <Logo />
         </div>
